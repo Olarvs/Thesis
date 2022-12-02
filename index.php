@@ -1,4 +1,6 @@
 <?php include 'includes/header.php'; ?>
+<!DOCTYPE html>
+<html>
 
 <body id="body">
     <section id="landing">
@@ -36,7 +38,7 @@
                             </li>
                         </ul>
                         <div class="img__container--menu">
-                            <img class="logo__img" src="image/logo/logo.svg" alt="">
+                            <img class="logo__img" src=".image/logo/logo.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -46,13 +48,13 @@
             <div class="header__container">
                 <div class="header__description">
                     <h1 class="text-green">Selling plants of the highest quality</h1>
-                    <h2>Explore a range of plants with <span class="text-green">Plant Shop</span></h2>
+                    <h2>Explore a range of plants with <span class="text-green">Margaux</span></h2>
                     <a href="browse.html">
                         <button class="btn">Browse Plants</button>
                     </a>
                 </div>
                 <figure class="header__img--container">
-                    <img class="header__img" src="image/landing/landing_img.svg" alt="">
+                    <img class="header__img" src="image/landing/landing-succ.png" alt="">
                 </figure>
             </div>
         </header>
@@ -61,7 +63,7 @@
         <section id="highlights">
             <div>
                 <div class="row">
-                    <h2 class="section-title">Why choose <span class="text-green">Plant Shop?</span></h1>
+                    <h2 class="section-title">Why choose <span class="text-green">Margaux Cacti & Succulents Corner?</span></h1>
                         <div class="highlight__wrapper">
                             <div class="highlight">
                                 <div class="highlight__img">
@@ -149,5 +151,6 @@
             <i class="fas fa-up-long"></i>
         </div>
     </a>
-    <?php include 'includes/footer.php'?>
+    <?php include 'includes/footer.php'; ?>
 </body>
+</html>
