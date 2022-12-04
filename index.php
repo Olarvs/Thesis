@@ -118,8 +118,10 @@
             <i class="fas fa-up-long"></i>
         </div>
     </a>
+    
     <!-- footer link -->
     <?php include 'includes/footer.php'; ?>
     <!-- end of footer -->
+
 </body>
 </html>
