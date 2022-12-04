@@ -1,3 +1,4 @@
+<?php include 'includes/session.php'?>
 <!-- head tag -->
 <?php include 'includes/header.php'; ?>
 
@@ -57,7 +58,7 @@
                 </div>
             </div>
         </section>
-
+ 
         <section id="popular">
             <div class="container popular-container">
                 <div class="row">
@@ -118,8 +119,10 @@
             <i class="fas fa-up-long"></i>
         </div>
     </a>
+    
     <!-- footer link -->
     <?php include 'includes/footer.php'; ?>
     <!-- end of footer -->
+
 </body>
 </html>
