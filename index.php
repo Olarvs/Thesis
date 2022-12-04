@@ -7,7 +7,7 @@
         <nav>
             <div class="nav__container">
                 <a class="logo" href="index.html">
-                    <img class="logo__img" src="image/logo/logo.svg" alt="">
+                    <img class="logo__img" src="image/logo/logo.png" alt="">
                     <span class="logo__text">Margaux Cacti & Succulents Corner</span>
                 </a>
                 <ul class="nav__links">
@@ -38,7 +38,7 @@
                             </li>
                         </ul>
                         <div class="img__container--menu">
-                            <img class="logo__img" src=".image/logo/logo.svg" alt="">
+                            <img class="logo__img" src=".image/logo/logo.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                     </a>
                 </div>
                 <figure class="header__img--container">
-                    <img class="header__img" src="image/landing/landing-succ.png" alt="">
+                    <img class="header__img" src="image/landing/home-image.png" alt="">
                 </figure>
             </div>
         </header>
@@ -101,7 +101,7 @@
                                 <img class="plant__img" src="./assets/peace-lily.png" alt="">
                             </figure>
                             <h3 class="plant__title">Peace Lily</h3>
-                            <h4 class="plant__price">£19.99</h4>
+                            <h4 class="plant__price">₱19.99</h4>
                             <button class="plant__btn btn">Add to Basket</button>
                         </div>
                         <div class="plant__card">
@@ -109,7 +109,7 @@
                                 <img class="plant__img" src="./assets/areca-palm.png" alt="">
                             </figure>
                             <h3 class="plant__title">Areca Palm</h3>
-                            <h4 class="plant__price">£19.99</h4>
+                            <h4 class="plant__price">₱19.99</h4>
                             <button class="plant__btn btn">Add to Basket</button>
                         </div>
                         <div class="plant__card">
@@ -117,7 +117,7 @@
                                 <img class="plant__img" src="./assets/swiss-cheese-plant.png" alt="">
                             </figure>
                             <h3 class="plant__title">Swiss Cheese Plant</h3>
-                            <h4 class="plant__price">£19.99</h4>
+                            <h4 class="plant__price">₱19.99</h4>
                             <button class="plant__btn btn">Add to Basket</button>
                         </div>
                         <div class="plant__card">
@@ -125,7 +125,7 @@
                                 <img class="plant__img" src="./assets/kentia-palm.png" alt="">
                             </figure>
                             <h3 class="plant__title">Kentia P</h3>
-                            <h4 class="plant__price">£19.99</h4>
+                            <h4 class="plant__price">₱19.99</h4>
                             <button class="plant__btn btn">Add to Basket</button>
                         </div>
                     </div>
