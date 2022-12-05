@@ -38,6 +38,10 @@ nav{
     margin: 0 auto;
 }
 
+#login-container{
+    padding: 250px;
+}
+
 .logo{
     display: flex;
     align-items: center;

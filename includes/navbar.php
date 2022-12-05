@@ -48,7 +48,7 @@
                     </li>
                     <!-- login -->
                     <li>
-                        <a class="nav__link login" href="#">Login</a>
+                        <a class="nav__link login" href="login.php">Login</a>
                     </li>
                     
                     <!-- sign up -->
@@ -64,6 +64,11 @@
                                 <p class="basket__items--text">0</p>
                             </div>
                         </a>
+                    </li>
+
+                    <!-- search bar -->
+                    <li>
+                        <form action="index.php" method="post"></form>
                     </li>
                 </ul>
                 <!-- link of pages ends here -->
