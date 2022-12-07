@@ -53,7 +53,7 @@
                     
                     <!-- sign up -->
                     <li>
-                        <a class="nav__link login" href="#">Sign up</a>
+                        <a class="nav__link login" href="signup.php">Sign up</a>
                     </li>
 
                     <!-- dito ung cart -->
@@ -71,6 +71,14 @@
                         <form action="index.php" method="post"></form>
                     </li>
                 </ul>
+                <form method="POST" class="navbar-form navbar-left" action="search.php">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="navbar-search-input" name="keyword" placeholder="Search for Product" required>
+                        <span class="input-group-btn" id="searchBtn" style="display:none;">
+                        <button type="submit" class="btn btn-default btn-flat"><i class="fa fa-search"></i> </button>
+                        </span>
+                    </div>
+                </form>
                 <!-- link of pages ends here -->
 
                 <button class="menu__btn" onclick="openMenu()">
@@ -94,6 +102,8 @@
                         </div>
                     </div>
                 </div>
+
+            <!-- div navbar ends here -->
             </div>
     </nav>
     </body>

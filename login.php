@@ -13,23 +13,41 @@ if(isset($_SESSION['user'])){
 <body id="body">
 <!-- main content starts here -->
 
-     <form action="login.php" method="post">
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Privacy Policy</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Login</button><br><br>
-        <a href="#">Create new Account</a><br>
-        <a href="#">Go back to Homepage</a>
+     <form action="verify.php" method="post">
+
+     <?php 
+            if(isset($_SESSION['error'])){
+                echo "
+                <div class='alert alert-danger'>
+                <button type='button' class='close' data-dismiss='alert'>&times;</button>
+                  <p>".$_SESSION['error']."</p> 
+                </div>";
+                unset($_SESSION['error']);
+              }
+              if(isset($_SESSION['success'])){
+                echo "
+                  <div class='callout callout-success text-center'>
+                    <p>".$_SESSION['success']."</p> 
+                  </div>
+                "; 
+                unset($_SESSION['success']);
+              }
+        ?>
+                <h2>Login</h2>
+      		<div class="form-group has-feedback">
+        		<input type="email" class="form-control" name="email" placeholder="Email" required>
+        		<span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      		</div>
+          <div class="form-group has-feedback">
+            <input type="password" class="form-control" name="password" id="pass" placeholder="Password" required>
+            <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+          </div>
+          <a href="password_forgot.php">Forgot your password?</a><br><br>
+      		<div class="row">
+    			<div class="col-xs-4">
+        <button type="submit" class="btn btn-primary btn-block btn-flat" name="login" id="login"><i class="fa fa-sign-in"></i> Login</button><br>
+        <a href="signup.php">Create new Account</a><br>
+        <a href="index.php">Go back to Homepage</a>
         
      </form>
 
@@ -81,8 +99,16 @@ a {
 a:hover{
 	opacity: .5;
 }
-     </style>
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+</style>
 
-<!-- <?php include 'includes/scripts.php' ?> -->
+<?php include 'includes/scripts.php' ?>
 </body>
 </html>
